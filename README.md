@@ -26,6 +26,7 @@ var express = require('express')
     ;
 
 // Blacklist the following IPs
+// Now this can block "::1" IP , editor: Fish
 var ips = ['127.0.0.1'];
 
 // Create the server
